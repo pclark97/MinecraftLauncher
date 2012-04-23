@@ -37,6 +37,7 @@
     NSLog(@"Found jarfile at:%@", jarLocation);
     
     if (nil == jarLocation) {
+        // the user probably hasn't installed the minecraft_server.jar file
         [_startButton setEnabled:false];
         [self appendText:@"minecraft_server.jar file not found in main bundle.\n"];
     }

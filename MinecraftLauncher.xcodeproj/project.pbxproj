@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6673E9F215461442004F4E3F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6673E9F115461442004F4E3F /* Cocoa.framework */; };
+		6673E9FC15461442004F4E3F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6673E9FA15461442004F4E3F /* InfoPlist.strings */; };
+		6673E9FE15461442004F4E3F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6673E9FD15461442004F4E3F /* main.m */; };
+		6673EA0215461442004F4E3F /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 6673EA0015461442004F4E3F /* Credits.rtf */; };
+		6673EA0515461442004F4E3F /* PDCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6673EA0415461442004F4E3F /* PDCAppDelegate.m */; };
+		6673EA0815461442004F4E3F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6673EA0615461442004F4E3F /* MainMenu.xib */; };
+		6673EA1015461442004F4E3F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6673EA0F15461442004F4E3F /* SenTestingKit.framework */; };
+		6673EA1115461442004F4E3F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6673E9F115461442004F4E3F /* Cocoa.framework */; };
+		6673EA1915461442004F4E3F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6673EA1715461442004F4E3F /* InfoPlist.strings */; };
+		6673EA1C15461443004F4E3F /* MinecraftLauncherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6673EA1B15461443004F4E3F /* MinecraftLauncherTests.m */; };
+		66AA1C511546163A00B9B9CB /* minecraft_server.jar in Frameworks */ = {isa = PBXBuildFile; fileRef = 66AA1C501546163A00B9B9CB /* minecraft_server.jar */; };
+		66AA1C521546166D00B9B9CB /* minecraft_server.jar in Resources */ = {isa = PBXBuildFile; fileRef = 66AA1C501546163A00B9B9CB /* minecraft_server.jar */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6673EA1215461442004F4E3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6673E9E415461442004F4E3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6673E9EC15461442004F4E3F;
+			remoteInfo = MinecraftLauncher;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6673E9ED15461442004F4E3F /* MinecraftLauncher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MinecraftLauncher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6673E9F115461442004F4E3F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		6673E9F415461442004F4E3F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		6673E9F515461442004F4E3F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6673E9F615461442004F4E3F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6673E9F915461442004F4E3F /* MinecraftLauncher-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MinecraftLauncher-Info.plist"; sourceTree = "<group>"; };
+		6673E9FB15461442004F4E3F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6673E9FD15461442004F4E3F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6673E9FF15461442004F4E3F /* MinecraftLauncher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MinecraftLauncher-Prefix.pch"; sourceTree = "<group>"; };
+		6673EA0115461442004F4E3F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		6673EA0315461442004F4E3F /* PDCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDCAppDelegate.h; sourceTree = "<group>"; };
+		6673EA0415461442004F4E3F /* PDCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDCAppDelegate.m; sourceTree = "<group>"; };
+		6673EA0715461442004F4E3F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		6673EA0E15461442004F4E3F /* MinecraftLauncherTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinecraftLauncherTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6673EA0F15461442004F4E3F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		6673EA1615461442004F4E3F /* MinecraftLauncherTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MinecraftLauncherTests-Info.plist"; sourceTree = "<group>"; };
+		6673EA1815461442004F4E3F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6673EA1A15461442004F4E3F /* MinecraftLauncherTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MinecraftLauncherTests.h; sourceTree = "<group>"; };
+		6673EA1B15461443004F4E3F /* MinecraftLauncherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MinecraftLauncherTests.m; sourceTree = "<group>"; };
+		66AA1C501546163A00B9B9CB /* minecraft_server.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; path = minecraft_server.jar; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6673E9EA15461442004F4E3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6673E9F215461442004F4E3F /* Cocoa.framework in Frameworks */,
+				66AA1C511546163A00B9B9CB /* minecraft_server.jar in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6673EA0A15461442004F4E3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6673EA1015461442004F4E3F /* SenTestingKit.framework in Frameworks */,
+				6673EA1115461442004F4E3F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6673E9E215461442004F4E3F = {
+			isa = PBXGroup;
+			children = (
+				6673E9F715461442004F4E3F /* MinecraftLauncher */,
+				6673EA1415461442004F4E3F /* MinecraftLauncherTests */,
+				6673E9F015461442004F4E3F /* Frameworks */,
+				6673E9EE15461442004F4E3F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6673E9EE15461442004F4E3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6673E9ED15461442004F4E3F /* MinecraftLauncher.app */,
+				6673EA0E15461442004F4E3F /* MinecraftLauncherTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6673E9F015461442004F4E3F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6673E9F115461442004F4E3F /* Cocoa.framework */,
+				6673EA0F15461442004F4E3F /* SenTestingKit.framework */,
+				6673E9F315461442004F4E3F /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6673E9F315461442004F4E3F /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6673E9F415461442004F4E3F /* AppKit.framework */,
+				6673E9F515461442004F4E3F /* CoreData.framework */,
+				6673E9F615461442004F4E3F /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		6673E9F715461442004F4E3F /* MinecraftLauncher */ = {
+			isa = PBXGroup;
+			children = (
+				6673EA0315461442004F4E3F /* PDCAppDelegate.h */,
+				6673EA0415461442004F4E3F /* PDCAppDelegate.m */,
+				6673EA0615461442004F4E3F /* MainMenu.xib */,
+				6673E9F815461442004F4E3F /* Supporting Files */,
+			);
+			path = MinecraftLauncher;
+			sourceTree = "<group>";
+		};
+		6673E9F815461442004F4E3F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66AA1C501546163A00B9B9CB /* minecraft_server.jar */,
+				6673E9F915461442004F4E3F /* MinecraftLauncher-Info.plist */,
+				6673E9FA15461442004F4E3F /* InfoPlist.strings */,
+				6673E9FD15461442004F4E3F /* main.m */,
+				6673E9FF15461442004F4E3F /* MinecraftLauncher-Prefix.pch */,
+				6673EA0015461442004F4E3F /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6673EA1415461442004F4E3F /* MinecraftLauncherTests */ = {
+			isa = PBXGroup;
+			children = (
+				6673EA1A15461442004F4E3F /* MinecraftLauncherTests.h */,
+				6673EA1B15461443004F4E3F /* MinecraftLauncherTests.m */,
+				6673EA1515461442004F4E3F /* Supporting Files */,
+			);
+			path = MinecraftLauncherTests;
+			sourceTree = "<group>";
+		};
+		6673EA1515461442004F4E3F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6673EA1615461442004F4E3F /* MinecraftLauncherTests-Info.plist */,
+				6673EA1715461442004F4E3F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6673E9EC15461442004F4E3F /* MinecraftLauncher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6673EA1F15461443004F4E3F /* Build configuration list for PBXNativeTarget "MinecraftLauncher" */;
+			buildPhases = (
+				6673E9E915461442004F4E3F /* Sources */,
+				6673E9EA15461442004F4E3F /* Frameworks */,
+				6673E9EB15461442004F4E3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MinecraftLauncher;
+			productName = MinecraftLauncher;
+			productReference = 6673E9ED15461442004F4E3F /* MinecraftLauncher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6673EA0D15461442004F4E3F /* MinecraftLauncherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6673EA2215461443004F4E3F /* Build configuration list for PBXNativeTarget "MinecraftLauncherTests" */;
+			buildPhases = (
+				6673EA0915461442004F4E3F /* Sources */,
+				6673EA0A15461442004F4E3F /* Frameworks */,
+				6673EA0B15461442004F4E3F /* Resources */,
+				6673EA0C15461442004F4E3F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6673EA1315461442004F4E3F /* PBXTargetDependency */,
+			);
+			name = MinecraftLauncherTests;
+			productName = MinecraftLauncherTests;
+			productReference = 6673EA0E15461442004F4E3F /* MinecraftLauncherTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6673E9E415461442004F4E3F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PDC;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Pclark.net Consulting, LLC";
+			};
+			buildConfigurationList = 6673E9E715461442004F4E3F /* Build configuration list for PBXProject "MinecraftLauncher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6673E9E215461442004F4E3F;
+			productRefGroup = 6673E9EE15461442004F4E3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6673E9EC15461442004F4E3F /* MinecraftLauncher */,
+				6673EA0D15461442004F4E3F /* MinecraftLauncherTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6673E9EB15461442004F4E3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66AA1C521546166D00B9B9CB /* minecraft_server.jar in Resources */,
+				6673E9FC15461442004F4E3F /* InfoPlist.strings in Resources */,
+				6673EA0215461442004F4E3F /* Credits.rtf in Resources */,
+				6673EA0815461442004F4E3F /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6673EA0B15461442004F4E3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6673EA1915461442004F4E3F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6673EA0C15461442004F4E3F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6673E9E915461442004F4E3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6673E9FE15461442004F4E3F /* main.m in Sources */,
+				6673EA0515461442004F4E3F /* PDCAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6673EA0915461442004F4E3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6673EA1C15461443004F4E3F /* MinecraftLauncherTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6673EA1315461442004F4E3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6673E9EC15461442004F4E3F /* MinecraftLauncher */;
+			targetProxy = 6673EA1215461442004F4E3F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6673E9FA15461442004F4E3F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6673E9FB15461442004F4E3F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6673EA0015461442004F4E3F /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6673EA0115461442004F4E3F /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		6673EA0615461442004F4E3F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6673EA0715461442004F4E3F /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		6673EA1715461442004F4E3F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6673EA1815461442004F4E3F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6673EA1D15461443004F4E3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6673EA1E15461443004F4E3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6673EA2015461443004F4E3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MinecraftLauncher/MinecraftLauncher-Prefix.pch";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "MinecraftLauncher/MinecraftLauncher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6673EA2115461443004F4E3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MinecraftLauncher/MinecraftLauncher-Prefix.pch";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "MinecraftLauncher/MinecraftLauncher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6673EA2315461443004F4E3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MinecraftLauncher.app/Contents/MacOS/MinecraftLauncher";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MinecraftLauncher/MinecraftLauncher-Prefix.pch";
+				INFOPLIST_FILE = "MinecraftLauncherTests/MinecraftLauncherTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		6673EA2415461443004F4E3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MinecraftLauncher.app/Contents/MacOS/MinecraftLauncher";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MinecraftLauncher/MinecraftLauncher-Prefix.pch";
+				INFOPLIST_FILE = "MinecraftLauncherTests/MinecraftLauncherTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6673E9E715461442004F4E3F /* Build configuration list for PBXProject "MinecraftLauncher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6673EA1D15461443004F4E3F /* Debug */,
+				6673EA1E15461443004F4E3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6673EA1F15461443004F4E3F /* Build configuration list for PBXNativeTarget "MinecraftLauncher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6673EA2015461443004F4E3F /* Debug */,
+				6673EA2115461443004F4E3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6673EA2215461443004F4E3F /* Build configuration list for PBXNativeTarget "MinecraftLauncherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6673EA2315461443004F4E3F /* Debug */,
+				6673EA2415461443004F4E3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6673E9E415461442004F4E3F /* Project object */;
+}
